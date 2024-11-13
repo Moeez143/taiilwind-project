@@ -6,6 +6,10 @@ module.exports = {
       colors: {
         'primary': '#ee0181',
       },
+      fontFamily: {
+        'Inter': ['Inter', 'sans-serif'],
+        'Poppins': ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
