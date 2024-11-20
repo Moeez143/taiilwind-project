@@ -4,20 +4,22 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Inter";
-    src: url("fonts/Inter/Inter-VariableFont_opsz,wght.ttf");
+  font-family: "Inter";
+  src: url("fonts/Inter/Inter-VariableFont_opsz,wght.ttf");
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url("fonts/Poppins/Poppins-Regular.ttf");
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @layer base {
-    body {
-        @apply font-Inter;
-    }
-    h1, h2, h3 {
-        @apply font-Poppins text-gray-800 font-medium;
-    }
+  body {
+    @apply font-Inter;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-Poppins font-medium text-gray-800;
+  }
 }
