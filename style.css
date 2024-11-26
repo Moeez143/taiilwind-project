@@ -23,7 +23,7 @@
     @apply font-Poppins font-medium text-gray-800;
   }
   .my-container {
-    @apply mx-auto mt-16 max-w-7xl px-6 py-12 lg:mt-32 lg:px-8;
+    @apply mx-auto mt-16 max-w-7xl px-6 py-12 lg:mt-10 lg:px-8;
   }
   .container-heading {
     @apply mb-14 text-5xl sm:font-semibold;
@@ -36,5 +36,8 @@
   }
   .gradident-hover-inner {
     @apply bg-slate-50 group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50;
+  }
+  .h2-style {
+    @apply max-w-2xl text-5xl leading-normal sm:font-semibold;
   }
 }

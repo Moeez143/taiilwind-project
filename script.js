@@ -45,3 +45,16 @@ setupIntersectionObserver(line1, true, 0.15);
 setupIntersectionObserver(line2, false, 0.15);
 setupIntersectionObserver(line3, true, 0.15);
 setupIntersectionObserver(line4, true, 1.0);
+
+const dtElements = document.querySelectorAll("dt");
+
+dtElements.forEach((element) => {
+  element.addEventListener("click", () => {
+    const ddId = element.getAttribute("aria-controls");
+    const ddElement = document.getElementById(ddId);
+    const ddIcon = element.querySelectorAll("i")[0];
+
+    ddElement.classList.toggle("hidden");
+    ddIcon.classList.toggle("-rotate-180");
+  });
+});
